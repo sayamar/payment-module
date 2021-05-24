@@ -1,10 +1,11 @@
 # payment-module
-This is having two modules. One service is for creating a payment and another service is for executing the payment by using Kafka server
+This is having two modules. One service is for creating a payment and another service is for executing the payment. Kafka server being used to communicate micro services asynchronously.
 
 Below are two micro services. Developed using SPring-boot framework
 --------------------------------------------------------------------
 payment-create - This service is responisble for creating the payment
 payment-executor - This service is responsible for executing the payment
+Email-Service - Sending notification messages
 
 Kafka Server to send messages from payment-create service to payment-executor service by asynchronously
 --------------------------------------------------------------------------------------------------------
